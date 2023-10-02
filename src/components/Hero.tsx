@@ -58,7 +58,7 @@ const Hero = () => {
           </button>
         </div>
         <div className="flex-[0.5] h-full ">
-          <div className=" w-[24rem] sm:w-[26rem] md:w-[35rem] lg:w-full relative h-[23rem] sm:h-[26rem] mb-[2rem] lg:mb-0 lg:h-[35rem] mt-[3.5rem]">
+          <div className=" w-[24rem] sm:w-[26rem] mt-[2rem] md:w-[35rem] lg:w-full relative h-[19rem] sm:h-[26rem] mb-[2rem] lg:mb-0 lg:h-[35rem] md:mt-[3.5rem]">
             <Image src="/hero.png" fill alt="img" />
           </div>
         </div>
