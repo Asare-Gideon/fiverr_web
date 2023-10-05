@@ -53,12 +53,12 @@ const Hero = () => {
             Learn More
             <span className="border-[2px] border-white transition-all duration-500 group-hover:translate-x-2 p-[2px] rounded-full border-dotted ml-3">
               {" "}
-              <BiChevronRight className="text-xl" />{" "}
+              <BiChevronRight className="text-xl" />
             </span>
           </button>
         </div>
-        <div className="flex-[0.5] h-full ">
-          <div className=" w-[24rem] sm:w-[26rem] mt-[2rem] md:w-[35rem] lg:w-full relative h-[19rem] sm:h-[26rem] mb-[2rem] lg:mb-0 lg:h-[35rem] md:mt-[3.5rem]">
+        <div className="flex-[0.5] h-full">
+          <div className="w-[24rem] sm:w-[26rem] mt-[2rem] md:w-[35rem] lg:w-full relative h-[19rem] sm:h-[26rem] mb-[2rem] lg:mb-0 lg:h-[35rem] md:mt-[3.5rem]">
             <Image src="/hero.png" fill alt="img" />
           </div>
         </div>

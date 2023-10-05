@@ -32,7 +32,6 @@ const InvestSection = () => {
         <div className="flex w-full justify-center">
           <Image src={"/invest.png"} alt="img" width={70} height={70} />
         </div>
-
         <div className="w-full flex justify-center my-4 mb-5">
           {years.map((yr) => (
             <button
@@ -85,7 +84,7 @@ const InvestSection = () => {
               $256
             </h2>
             <h2 className="text-[#08CD9E] font-Nunito font-[700] text-[24px]">
-              219.85
+              219.85%
             </h2>
           </div>
         </div>

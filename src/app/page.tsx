@@ -15,7 +15,6 @@ export default function Home() {
       <div className="bg-deepBg w-full flex justify-center flex-col items-center">
         <Hero />
       </div>
-
       <div className="bg-lightBg w-full flex justify-center">
         <CardSection />
       </div>

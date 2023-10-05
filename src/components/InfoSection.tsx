@@ -48,7 +48,7 @@ const InfoSection = () => {
 
               {li.active && (
                 <span className="flex items-center mt-9  flex-col absolute">
-                  <span className="w-[2px] h-10 bg-blue-700"></span>
+                  <span className="w-[2px] -mt-2 h-6 bg-blue-700"></span>
                   <span className="w-4 h-4 rounded-full border-[1px] border-blue-700"></span>
                 </span>
               )}
