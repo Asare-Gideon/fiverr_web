@@ -1,4 +1,5 @@
 import AboutSection from "@/components/AboutSection";
+import InvestmentCalculator from "@/components/Calculator";
 import CardSection from "@/components/CardSection";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
@@ -33,10 +34,10 @@ export default function Home() {
       <div className="bg-deepBg w-full flex justify-center">
         <PricingSections />
       </div>
-
       <div className="bg-[#0E213E]  w-full flex justify-center">
         <Footer />
       </div>
+      <InvestmentCalculator />
     </main>
   );
 }
